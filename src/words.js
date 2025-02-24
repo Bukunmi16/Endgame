@@ -1,29 +1,29 @@
-export const words = [
-    "apple", "banana", "chair", "table", "pencil", "book", "window", "door", "car", "tree",
-    "river", "ocean", "cloud", "sun", "moon", "star", "house", "school", "garden", "street",
-    "flower", "grass", "bird", "dog", "cat", "fish", "ball", "game", "hat", "shoes", "shirt",
-    "pants", "jacket", "computer", "phone", "lamp", "bed", "couch", "mirror", "clock", "picture",
-    "run", "walk", "jump", "talk", "write", "read", "listen", "watch", "eat", "drink",
-    "sleep", "wake", "play", "think", "learn", "laugh", "smile", "cry", "work", "help",
-    "buy", "sell", "open", "close", "push", "pull", "hold", "drop", "carry", "drive",
-    "call", "dance", "sing", "sit", "stand", "shake", "wave", "clap", "paint", "build",
-    "big", "small", "fast", "slow", "hot", "cold", "happy", "sad", "easy", "hard",
-    "new", "old", "young", "strong", "weak", "light", "dark", "soft", "loud", "quiet",
-    "bright", "dull", "clean", "dirty", "funny", "serious", "tall", "short", "wide", "narrow",
-    "thick", "thin", "full", "empty", "sweet", "bitter", "kind", "mean", "nice", "rude",
-    "quickly", "slowly", "happily", "sadly", "easily", "hardly", "quietly", "loudly", "softly", "strongly",
-    "gently", "angrily", "brightly", "darkly", "warmly", "coldly", "clearly", "politely", "rudely", "kindly",
-    "safely", "dangerously", "carefully", "recklessly", "excitedly", "nervously", "calmly", "honestly", "bravely", "shyly",
-    "freely", "loosely", "tightly", "lightly", "heavily", "firmly", "wildly", "silently", "cheerfully", "gracefully",
-    "he", "she", "it", "they", "we", "you", "me", "him", "her", "us",
-    "above", "below", "between", "under", "over", "inside", "outside", "beside", "around", "through",
-    "before", "after", "during", "since", "until", "with", "without", "against", "about", "among",
-    "and", "or", "but", "so", "because", "although", "if", "when", "while", "where",
-    "wow", "oops", "hey", "oh", "yay", "ouch", "aha", "hmm", "yikes", "phew",
-    "morning", "afternoon", "evening", "night", "yesterday", "today", "tomorrow", "always", "never", "sometimes",
-    "north", "south", "east", "west", "summer", "winter", "spring", "autumn", "rain", "snow",
-    "thunder", "lightning", "storm", "wind", "breeze", "fog", "ice", "fire", "earth", "sky"
-];
+// export const words = [
+//     "apple", "banana", "chair", "table", "pencil", "book", "window", "door", "car", "tree",
+//     "river", "ocean", "cloud", "sun", "moon", "star", "house", "school", "garden", "street",
+//     "flower", "grass", "bird", "dog", "cat", "fish", "ball", "game", "hat", "shoes", "shirt",
+//     "pants", "jacket", "computer", "phone", "lamp", "bed", "couch", "mirror", "clock", "picture",
+//     "run", "walk", "jump", "talk", "write", "read", "listen", "watch", "eat", "drink",
+//     "sleep", "wake", "play", "think", "learn", "laugh", "smile", "cry", "work", "help",
+//     "buy", "sell", "open", "close", "push", "pull", "hold", "drop", "carry", "drive",
+//     "call", "dance", "sing", "sit", "stand", "shake", "wave", "clap", "paint", "build",
+//     "big", "small", "fast", "slow", "hot", "cold", "happy", "sad", "easy", "hard",
+//     "new", "old", "young", "strong", "weak", "light", "dark", "soft", "loud", "quiet",
+//     "bright", "dull", "clean", "dirty", "funny", "serious", "tall", "short", "wide", "narrow",
+//     "thick", "thin", "full", "empty", "sweet", "bitter", "kind", "mean", "nice", "rude",
+//     "quickly", "slowly", "happily", "sadly", "easily", "hardly", "quietly", "loudly", "softly", "strongly",
+//     "gently", "angrily", "brightly", "darkly", "warmly", "coldly", "clearly", "politely", "rudely", "kindly",
+//     "safely", "dangerously", "carefully", "recklessly", "excitedly", "nervously", "calmly", "honestly", "bravely", "shyly",
+//     "freely", "loosely", "tightly", "lightly", "heavily", "firmly", "wildly", "silently", "cheerfully", "gracefully",
+//     "he", "she", "it", "they", "we", "you", "me", "him", "her", "us",
+//     "above", "below", "between", "under", "over", "inside", "outside", "beside", "around", "through",
+//     "before", "after", "during", "since", "until", "with", "without", "against", "about", "among",
+//     "and", "or", "but", "so", "because", "although", "if", "when", "while", "where",
+//     "wow", "oops", "hey", "oh", "yay", "ouch", "aha", "hmm", "yikes", "phew",
+//     "morning", "afternoon", "evening", "night", "yesterday", "today", "tomorrow", "always", "never", "sometimes",
+//     "north", "south", "east", "west", "summer", "winter", "spring", "autumn", "rain", "snow",
+//     "thunder", "lightning", "storm", "wind", "breeze", "fog", "ice", "fire", "earth", "sky"
+// ];
 
 const christianVocabulary = [
   // Simple words
@@ -75,7 +75,7 @@ const footballWords = [
     "courtois", "neuer", "modeste", "gravenberch", "sancho", "greenwood", "maddison"
 ]
 
-const medicalWords = [
+export const words = [
     "anemia", "asthma", "biopsy", "bronchi", "cartilage", "diagnosis", "disease", "enzyme", "fatigue", "fracture",
     "gallbladder", "glucose", "hormone", "immune", "infection", "inflammation", "insulin", "joint", "kidney", "ligament",
     "liver", "lymphatic", "migraine", "muscle", "nausea", "neuron", "organ", "pancreas", "pathogen", "pharmacy",

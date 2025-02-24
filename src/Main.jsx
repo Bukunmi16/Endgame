@@ -76,9 +76,11 @@ export default function Main() {
     const letterElement = currentWord.toUpperCase().split("").map((letter, index)=>{
         const correct = isGameLost || guessedWord.includes(letter)
         const missedLetter = isGameLost && !guessedWord.includes(letter)
+        const wonLetters = isGameWon && guessedWord.includes(letter)
         const className = clsx({
             missedLetter: missedLetter,
-            correct: correct
+            correct: correct,
+            allRight: wonLetters
         })
         
 
