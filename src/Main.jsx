@@ -7,6 +7,7 @@ import clsx from "clsx";
 import ReactConfetti from "react-confetti";
 import {useWindowSize} from "react-use"
 import { useRef } from "react";
+import ConfettiComponent from "./Confetti";
 
 
 export default function Main() {
@@ -146,17 +147,20 @@ export default function Main() {
         setGuessedWord([])
     }
 
-    const { width, height } = useWindowSize()
+    // const { width, height } = useWindowSize()
 
 
     return(
-    <>
-        {isGameWon &&  
-            <ReactConfetti
-            width={width}
-            height={height}
-            />}
-            <main>
+        <>
+            <main
+            ref={gameStatusSection}
+            >
+                { isGameWon && <ConfettiComponent/>}
+                {/* {isGameWon &&  
+                    <ReactConfetti
+                    width={width}
+                    height={height}
+                    />} */}
 
         <section className="game-description">
         <h4 className="game-name">Assembly: Endgame</h4>
@@ -168,11 +172,12 @@ export default function Main() {
 
         
         <section className={gameClassName}
-        ref={gameStatusSection}
         >
         {renderGameStatus()}
         </section>
-
+        {isGameOver && <button onClick={newGame} className="new-game">
+            New Game
+        </button>}
         <section className="languages">
         {languageElements}
             </section>
@@ -185,9 +190,7 @@ export default function Main() {
         {keyElements}
         </section>
 
-        {isGameOver && <button onClick={newGame} className="new-game">
-            New Game
-        </button>}
+      
         </main>
     </>        
     )

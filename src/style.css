@@ -42,7 +42,7 @@ main{
     /* border: 1px solid red; */
     align-self: center;
     height: 60px;
-    padding: 10px 0;
+    padding: 8px 5px;
     width: 80%;
     max-width: 500px;
     background-color: #242424;
@@ -194,6 +194,7 @@ span.correct{
     border-radius: 5px;
     font-size: 15px;
     font-weight: 500;
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 800px) {
